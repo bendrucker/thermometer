@@ -16,7 +16,7 @@ $ npm install --save-dev thermometer
 
 ## Usage
 
-See the [tests](tests.js) and the [sample component](component.js) for a full example.
+See the [tests](test.js) and the [sample component](component.js) for a full example.
 
 ## API
 
