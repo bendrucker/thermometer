@@ -1,6 +1,6 @@
 # thermometer [![Build Status](https://travis-ci.org/bendrucker/thermometer.svg?branch=master)](https://travis-ci.org/bendrucker/thermometer)
 
-> Concisely test [Observable](https://github.com/raynos/observ) + [irtual-dom](https://github.com/matt-esch/virtual-dom) components
+> Concisely test [Observable](https://github.com/raynos/observ) + [virtual-dom](https://github.com/matt-esch/virtual-dom) components
 
 thermometer constructs your components, renders them to the DOM, and updates the DOM whenever your state changes. This allows you to test components that interact with the DOM, such as listening on events. For simple components, you can make assertions directly on the vtree. But for things like testing DOM events (e.g. clicking a button), you'll need a DOM. In the browser,thermometer relies on the real DOM. In Node, it will use [min-document](https://github.com/raynos/min-document), allowing you to test most DOM interactions without a browser.
 
