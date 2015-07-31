@@ -3,10 +3,15 @@
 var document = require('global/document')
 var Loop = require('main-loop')
 var virtualDom = require('virtual-dom')
+var assert = require('assert')
+var partial = require('ap').partial
 
 exports.createComponent = createComponent
 
 function createComponent (Component, callback) {
+  assert(Component, 'Component is required')
+  if (arguments.length < 2) return partial(createComponent, Component)
+
   // Call the component constructor to get a new state
   var state = Component()
 

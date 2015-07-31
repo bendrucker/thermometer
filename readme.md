@@ -18,7 +18,9 @@ See the [tests](/blob/master/tests.js) and the [sample component](/blob/master/c
 
 ## API
 
-#### `thermometer.createComponent(Component, callback)` -> `undefined`
+#### `thermometer.createComponent(Component, callback)` -> `undefined` / `function`
+
+When a callback is omitted, a partially applied function will be returned for the Component.
 
 ##### Component
 
@@ -29,7 +31,6 @@ A component constructor which is expected to return an observable state. It shou
 
 ##### callback
 
-*Required*  
 Type: `function`  
 Arguments: `state, element, done`
 

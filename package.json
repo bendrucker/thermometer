@@ -27,6 +27,7 @@
     "virtual-dom"
   ],
   "dependencies": {
+    "ap": "~0.2.0",
     "main-loop": "~3.1.0"
   },
   "devDependencies": {

@@ -25,6 +25,16 @@ test(function (t) {
   })
 })
 
+test('partial application', function (t) {
+  t.plan(2)
+  var render = thermo.createComponent(Component)
+  render(function (state, element, done) {
+    t.equal(typeof state, 'function')
+    t.equal(element.tagName, 'H1')
+    done()
+  })
+})
+
 function elements () {
   return document.getElementsByClassName('component')
 }
