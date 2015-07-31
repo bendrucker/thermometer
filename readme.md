@@ -18,7 +18,7 @@ See the [tests](/blob/master/tests.js) and the [sample component](/blob/master/c
 
 ## API
 
-#### thermometer.createComponent(Component, callback)
+#### `thermometer.createComponent(Component, callback)` -> `undefined`
 
 ##### Component
 
