@@ -9,7 +9,7 @@ It will also instantiate [dom-delegator](https://github.com/raynos/dom-delegator
 ## Install
 
 ```
-$ npm install --save thermometer
+$ npm install --save-dev thermometer
 ```
 
 
