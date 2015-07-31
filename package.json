@@ -28,6 +28,7 @@
   ],
   "dependencies": {
     "ap": "~0.2.0",
+    "global": "~4.3.0",
     "main-loop": "~3.1.0"
   },
   "devDependencies": {
@@ -41,7 +42,6 @@
   },
   "peerDependencies": {
     "dom-delegator": "^13.0.0",
-    "global": "^4.3.0",
     "virtual-dom": "~2.0.0"
   },
   "files": [
