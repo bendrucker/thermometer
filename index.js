@@ -5,6 +5,10 @@ var Loop = require('main-loop')
 var virtualDom = require('virtual-dom')
 var assert = require('assert')
 var partial = require('ap').partial
+var Delegator = require('dom-delegator')
+
+// Instantiate a DOM delegator once, since it caches itself
+Delegator()
 
 exports.createComponent = createComponent
 
