@@ -1,0 +1,48 @@
+{
+  "name": "thermometer",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Concisely test Observable + virtual-dom components",
+  "license": "MIT",
+  "repository": "bendrucker/thermometer",
+  "author": {
+    "email": "bvdrucker@gmail.com",
+    "name": "Ben Drucker",
+    "url": "bendrucker.me"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "component",
+    "mercury",
+    "observ",
+    "observable",
+    "state",
+    "test",
+    "utility",
+    "virtual-dom"
+  ],
+  "dependencies": {
+    "main-loop": "~3.1.0"
+  },
+  "devDependencies": {
+    "global": "^4.3.0",
+    "observ": "~0.2.0",
+    "raf": "~3.1.0",
+    "standard": "^4.0.0",
+    "tape": "^4.0.0",
+    "virtual-dom": "~2.0.1"
+  },
+  "peerDependencies": {
+    "global": "^4.3.0",
+    "virtual-dom": "~2.0.0"
+  },
+  "files": [
+    "index.js",
+    "readme.md"
+  ]
+}
