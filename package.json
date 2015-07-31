@@ -1,7 +1,7 @@
 {
   "name": "thermometer",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Concisely test Observable + virtual-dom components",
   "license": "MIT",
   "repository": "bendrucker/thermometer",
