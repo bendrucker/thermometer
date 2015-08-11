@@ -7,9 +7,10 @@ var h = require('virtual-dom/h')
 
 module.exports = Component
 
-function Component () {
+function Component (data) {
+  data = data || {}
   return Observ({
-    heading: 'Hello World!'
+    heading: data.heading || 'Hello World!'
   })
 }
 

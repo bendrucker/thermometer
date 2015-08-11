@@ -35,6 +35,15 @@ test('partial application', function (t) {
   })
 })
 
+test('initial state', function (t) {
+  t.plan(1)
+  var render = thermo.createComponent(Component)
+  render({heading: 'Initial Heading'}, function (state, element, done) {
+    t.equal(state().heading, 'Initial Heading')
+    done()
+  })
+})
+
 function elements () {
   return document.getElementsByClassName('component')
 }

@@ -20,7 +20,7 @@ See the [tests](test.js) and the [sample component](component.js) for a full exa
 
 ## API
 
-#### `thermometer.createComponent(Component, callback)` -> `undefined` / `function`
+#### `thermometer.createComponent(Component, data, callback)` -> `undefined` / `function`
 
 When a callback is omitted, a partially applied function will be returned for the Component.
 
@@ -30,6 +30,13 @@ When a callback is omitted, a partially applied function will be returned for th
 Type: `function`
 
 A component constructor which is expected to return an observable state. It should also have a `Component.render` function that returns a vtree from [virtual-dom](https://github.com/matt-esch/virtual-dom).
+
+##### data
+
+Type: `object`  
+Default: `undefined`
+
+Initial data to pass to the component.
 
 ##### callback
 

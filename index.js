@@ -12,12 +12,17 @@ Delegator()
 
 exports.createComponent = createComponent
 
-function createComponent (Component, callback) {
+function createComponent (Component, data, callback) {
   assert(Component, 'Component is required')
   if (arguments.length < 2) return partial(createComponent, Component)
 
+  if (typeof data === 'function') {
+    callback = data
+    data = undefined
+  }
+
   // Call the component constructor to get a new state
-  var state = Component()
+  var state = Component(data)
 
   // Add an element for later use
   var div = document.createElement('div')
