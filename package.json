@@ -38,11 +38,11 @@
     "raf": "~3.1.0",
     "standard": "^4.0.0",
     "tape": "^4.0.0",
-    "virtual-dom": "~2.0.1"
+    "virtual-dom": "^2.1.1"
   },
   "peerDependencies": {
     "dom-delegator": "^13.0.0",
-    "virtual-dom": "~2.0.0"
+    "virtual-dom": "^2.0.0"
   },
   "files": [
     "index.js",
