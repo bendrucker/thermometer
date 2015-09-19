@@ -40,9 +40,6 @@
     "tape": "^4.0.0",
     "virtual-dom": "^2.1.1"
   },
-  "peerDependencies": {
-    "virtual-dom": "^2.0.0"
-  },
   "files": [
     "index.js",
     "readme.md"
