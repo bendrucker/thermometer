@@ -43,5 +43,8 @@
   "files": [
     "index.js",
     "readme.md"
-  ]
+  ],
+  "engines": {
+    "npm": ">= 3"
+  }
 }
