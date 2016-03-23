@@ -26,6 +26,7 @@ function createComponent (Component, data, callback) {
 
   // Add an element for later use
   var div = document.createElement('div')
+  div.style.height = '100%'
   document.body.appendChild(div)
 
   // create a raf rendering loop and add the target element to the dom
