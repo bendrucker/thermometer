@@ -1,7 +1,7 @@
 {
   "name": "thermometer",
   "main": "index.js",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "description": "Concisely test Observable + virtual-dom components",
   "license": "MIT",
   "repository": "bendrucker/thermometer",
@@ -11,7 +11,7 @@
     "url": "bendrucker.me"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "npm": ">= 3"
   },
   "scripts": {
     "test": "standard && tape test.js"
@@ -43,8 +43,5 @@
   "files": [
     "index.js",
     "readme.md"
-  ],
-  "engines": {
-    "npm": ">= 3"
-  }
+  ]
 }
