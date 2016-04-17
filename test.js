@@ -44,6 +44,14 @@ test('initial state', function (t) {
   })
 })
 
+test('args passed to render', function (t) {
+  t.plan(1)
+  thermo.createComponent(Component, {heading: 'foo'}, 'bar', function (state, element, done) {
+    t.equal(element.childNodes[0].toString(), 'foobar')
+    done()
+  })
+})
+
 function elements () {
   return document.getElementsByClassName('component')
 }

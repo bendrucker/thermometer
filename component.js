@@ -14,6 +14,6 @@ function Component (data) {
   })
 }
 
-Component.render = function render (state) {
-  return h('h1.component', state.heading)
+Component.render = function render (state, data) {
+  return h('h1.component', state.heading + (data || ''))
 }
