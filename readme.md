@@ -1,4 +1,4 @@
-# thermometer [![Build Status](https://travis-ci.org/bendrucker/thermometer.svg?branch=master)](https://travis-ci.org/bendrucker/thermometer)
+# thermometer [![Build Status](https://travis-ci.org/bendrucker/thermometer.svg?branch=master)](https://travis-ci.org/bendrucker/thermometer) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/thermometer.svg)](https://greenkeeper.io/)
 
 > Concisely test [Observable](https://github.com/raynos/observ) + [virtual-dom](https://github.com/matt-esch/virtual-dom) components
 
